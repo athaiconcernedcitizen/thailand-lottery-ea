@@ -1,0 +1,12 @@
+name: Thailand Lottery V1
+description: An external adapter to get Thailand Lottery 
+node_identifier: thailand-lottery-ea-v1
+platforms:
+  - Docker
+  - AWS Lambda
+  - GCP Functions
+data_sources:
+  - name: GLO API
+    url: https://www.glo.or.th/api/mission/getMissionStatsRewardPrevious
+parameters:
+  - date
