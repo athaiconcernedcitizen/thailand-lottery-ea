@@ -3,7 +3,6 @@
 /* eslint-disable quotes */
 /* eslint-disable semi */
 const { Requester, Validator } = require("@chainlink/external-adapter");
-const _ = require("lodash");
 
 // Define custom error scenarios for the API.
 // Return true for the adapter to retry.
