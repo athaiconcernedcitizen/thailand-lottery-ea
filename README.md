@@ -1,0 +1,1 @@
+External Adapter For Loading Thailand Lottery
